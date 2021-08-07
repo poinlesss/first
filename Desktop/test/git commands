@@ -1,5 +1,10 @@
 git show
 git folder location /Users/user/Desktop/test
 git pull
-git list
 
+
+git branch
+git diff
+git log
+git show 8afd86251468a679019cb4edf8fbb835b7a37a2e 
+git show --stat 8afde223439324b4e1faf3835b7a37a2e 
