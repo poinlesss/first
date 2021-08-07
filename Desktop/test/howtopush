@@ -1,0 +1,132 @@
+edit a file:
+vi howtopush
+
+move file to staging area
+git add howtopush
+
+commit to local repository
+git commit
+
+write in a commit message
+save commit config file that was opened up
+
+what is name of local branch
+git branch 
+
+move changes from local to remote
+git push main main
+
+
+
+
+
+
+git add import\ io 
+This command will add <the file> to the Git staging area. We can examine the result of this action by using the git status command.
+<staging area>
+view staging area
+git status
+
+(use "git add <file>..." to include in what will be committed)
+what will be committed
+
+add files to staging area
+what will be committed
+
+Your branch is up to date with 'origin/main'.
+
+The green output new file: hello.py indicates that hello.py will be saved with the next commit. From the commit is created by executing:
+
+Please enter the commit message for your changes. 
+
+# Changes to be committed:
+#       modified:   import io
+#
+
+
+# Your branch is up to date with 'origin/main'
+
+git commit
+This will open a text editor 
+
+
+It is a common practice to use the first line of the commit message as a subject line, similar to an email.
+
+The rest of the log message is considered the body and used to communicate details of the commit change set.
+
+Note that many developers also like to use the present tense in their commit messages.
+
+[main 561d24f] s the first message
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+How to update (amend) a commit
+Let's make further updates to hello.py and execute the following:
+
+git add hello.py
+git commit --amend
+asking for a commit log message
+
+
+git add import\ io
+git commit --ammend
+
+Git commits are done locally
+
+commits are cheap and should be used frequently.
+
+Whereas SVN commits are an expensive operation that makes a remote request
+
+Can I add multiple modified files using the Git commit command?
+git commit -a -m “Update trial-activate page with changes from release."
+If you have numerous modified files sitting in your working directory, it can be time-consuming to add them one at a time. Speed up the process by using the git commit command followed by the -a flag. This will add all of the modified or deleted files in your working directory to the current commit. I
+
+git diff --staged
+
+git init → Create a new git repository
+
+git add “newfile” → Add a new file to your staging area
+
+git commit → Adds staged changes to your local repository
+
+
+git push “remote” “ branch” → Push local repository changes to your hosting service
+
+git pull “remote” “ branch” → pull code from your hosting service to your local directory
+
+git branch → See local branches
+* main
+
+git branch “newName” → Create new local branch
+
+git checkout “branchName” → Switch branches
+
+git diff → See the actual difference in code between your working tree and your staging area
+
+
+git status → Show which files are being tracked v. untracked
+
+git log → Show recent commit history
+
+git show “commit_id” → show details of specific commit
+
+git stash → stash working directory
+
+
+
+did i do it? 
+
+git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 476 bytes | 476.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/poinlesss/first.git
+   283a62d..910c28f  main -> main
+
+yep
+i did it!
+
+ 
