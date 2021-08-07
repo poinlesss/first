@@ -14,7 +14,8 @@ what is name of local branch
 git branch 
 
 move changes from local to remote
-git push main main
+git push origin main
+
 
 
 
