@@ -1,6 +1,6 @@
-'import io
-'BytesIO -> I/O operations on byte data
-'StringIO -> I/O operations on string data
+#import io
+#BytesIO -> I/O operations on byte data
+#StringIO -> I/O operations on string data
 
 import io
 bytes_stream = io.BytesIO(b'Hello from Journaldev\x0AHow are you?')
