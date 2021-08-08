@@ -1,4 +1,6 @@
 import io
+import plistlib
+import sys
 import urllib.error
 import urllib.request
 from unitest import mock 
